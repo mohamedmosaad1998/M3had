@@ -1,0 +1,115 @@
+body
+ {
+
+
+    font-family: droid arabic kufi,Arial;
+    line-height: 22px;
+    color:rgb(0, 0, 0);;
+   background: url(../imgs/popcorn-min.jpg);
+    background-size: cover ;
+}
+
+.loginBox 
+{
+    background: rgba(44,62,80,0.7);
+    padding: 40px;
+    width: 344px;
+    margin: auto;
+    margin-top: 100px;
+    height: auto;
+    margin-left: 180x;
+    text-align: center;
+
+
+}
+
+
+h2 {
+    color:#fff;
+   
+}
+
+input
+{
+    width: 240px;
+    text-align: center;
+    background: transparent;
+    border : 1px  inset #fff ;
+    border-right: none ;
+    border-left:none;
+    font-family: 'play' , sans-serif ;
+    font-size: 16px;
+    font-weight: 200px;
+    padding: 10px  0 ;
+    transition: border 0.5s;
+    outline: none;
+    color:rgb(0, 0, 0); ;
+}
+
+input[type = button ]
+{
+
+    border: none ;
+    width: 190px ;
+    background:rgb(238, 208, 208);
+    color: #ff4d00 ;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 10px 0 ;
+    border-radius: 15px;
+    cursor: pointer;
+}
+input[type = button ]:hover
+{
+ color: #fff;
+ background-color : #ff4d00;
+}
+
+a 
+{
+    color:#ff4d00 ;
+    text-decoration: blink;
+
+}
+a:hover 
+{
+    color:#fff;
+
+}
+
+.forget {
+    margin-right: 0px;
+    font-size: 15px ;
+    font-family: tahoma,geneva,sans-serif;
+    display: inline-block;     
+    width: 100% ;
+    
+
+
+}
+
+::placeholder {
+    color: rgb(238, 208, 208);
+    opacity:0.8 ;
+}
+
+.habib{
+    color:rgb(238, 208, 208);
+}
+input[type=radio] {
+
+    vertical-align:text-top;
+    width:60px;
+    height:15px;
+    padding:0;
+    margin: auto;
+    position:relative;
+    overflow:hidden;
+    top:2px; 
+    
+}
+.bebo {
+    color:rgb(238, 208, 208);
+}
+
+
